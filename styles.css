@@ -1,5 +1,10 @@
-nav ul{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+nav{
     background-color: black;
+}
+nav ul{
+    
     display: flex;
     justify-content: space-between;
 }
