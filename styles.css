@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 nav{
+   margin: 0;
     background-color: black;
 }
 nav ul{
@@ -9,6 +10,22 @@ nav ul{
     justify-content: space-between;
 }
 nav ul li{
+    color: white;
+    padding: 0;
+   
+}
+nav ul li a{
    color: white;
+ text-decoration: none;
+}
 
+.header{
+    background-color: rgb(19, 8, 8);
+    height: 800px;
+}
+.header h1,p{
+    margin: 0;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 300px;
 }
