@@ -13,14 +13,15 @@ body{
     
 }
 
+
 nav{
- 
-    
-  background-color: rgb(68, 68, 68) ;
-   display: flex;
-   justify-content: space-between;
-   margin: 20px 30%;
+  display: flex;
+  justify-content: space-between;
  align-items: baseline;
+  background-color: rgb(68, 68, 68) ;
+  
+   margin: 20px 30%;
+
 }
 
 h3{
@@ -84,6 +85,12 @@ button{
   font-size: 20px;
   font-weight: bold
 }
+
+
+
+footer{
+  color: grey;
+
 
 
 
