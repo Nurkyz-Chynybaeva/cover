@@ -35,22 +35,26 @@ nav ul li{
 }
 .home{
   color: white;
-  text-decoration: underline;
   
+  text-decoration: underline 5px white;
+  
+}
+.home:hover{
+  text-decoration: underline 5px grey;
 }
 
 .contact{
   color: grey;
 }
 .contact:hover{
-  text-decoration: underline grey;
+  text-decoration: underline 5px grey;
 }
 .features{
   color: grey;
   margin: 0 10px;
 }
 .features:hover{
-  text-decoration: underline grey;
+  text-decoration: underline 5px grey;
 }
 
 section{
