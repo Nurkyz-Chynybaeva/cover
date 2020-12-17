@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+   
 }
 
 
@@ -20,18 +20,25 @@ nav{
  align-items: baseline;
   background-color: rgb(51, 51, 51) ;
   
-   margin: 20px 30%;
+   margin: 20px 28%;
 
 }
 
 h3{
+   font-weight: 500;
+    line-height: 1.2;
   color: white;
-  font-size: 27px;
+  font-size: 28px;
 }
 nav ul li{
+ 
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+  
+   
  display: inline;
  font-size: 16px;
- font-weight: bold;
+ 
 }
 .home{
   color: white;
@@ -61,12 +68,13 @@ section{
  margin: 120px 30%;
 }
 header{
-  margin: 20px 0;
+  margin: 30px 0;
 text-align: center;
 
   
 }
 h1{
+  font-weight: 500;
   margin: 20px 0;
    font-size: 40px;
   color: white;
@@ -75,6 +83,7 @@ p{
   line-height: 30px;
   color: white;
   font-size: 20px;
+  font-weight: 300;
 }
 .but{
   margin: 0 38.4%;
@@ -87,7 +96,8 @@ button{
   border-radius: 7px;
   color: rgb(59, 58, 58);
   font-size: 20px;
-  font-weight: bold
+  font-weight: bold;
+  background-color: white;
 }
 
 
